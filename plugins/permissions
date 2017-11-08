@@ -49,8 +49,10 @@ default:
 + essentials.warp.list
 + essentials.warps.*
 - essentials.help
-
-
++ pvptoggle.allow
++ safetrade.request
++ safetrade.accept
++ safetrade.deny
 
 
 
