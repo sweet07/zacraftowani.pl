@@ -1,0 +1,322 @@
+  Builder:
+    fullname: Builder
+    shortname: B
+    description: Earns money for building structures.
+    ChatColour: WHITE
+    chat-display: full
+    max-level: 200
+    #slots: 10
+    leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01) * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 108
+      Data: 0
+    Place:
+      STONE-2:
+        income: 1.3
+        points: 1.3
+        experience: 2
+      STONE-4:
+        income: 1.3
+        points: 1.3
+        experience: 2
+      STONE-6:
+        income: 1.3
+        points: 1.3
+        experience: 2
+      COBBLESTONE:
+        income: 0.7
+        points: 0.7
+        experience: 2
+      '5':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '35':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '41':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '42':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '44':
+        income: 0.8
+        points: 0.8
+        experience: 2
+      '45':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '47':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '48':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '49':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '53':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '54':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '57':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '58':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '61':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '65':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '67':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '79':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '80':
+        income: 1.0
+        points: 1.0
+        experience: 2
+      '84':
+        income: 1.0
+        points: 1.0
+        experience: 2
+      '85':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '89':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '95':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '96':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '98':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '101':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '102':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '107':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '108':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '109':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '112':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '113':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '114':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '116':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '120':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '123':
+        income: 1.0
+        points: 1.0
+        experience: 2
+      '126':
+        income: 0.8
+        points: 0.8
+        experience: 2
+      '128':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '130':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '133':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '134':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '139':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '146':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '152':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '154':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '155':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '156':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '159':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '160':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '161':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '163':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '164':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '167':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '168':
+        income: 1.3
+        points: 1.3
+        experience: 1.9
+      '169':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '170':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '172':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '173':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '174':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '179':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '180':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '182':
+        income: 0.8
+        points: 0.8
+        experience: 2
+      '183':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '184':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '185':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '186':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '187':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '188':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '189':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '190':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '191':
+        income: 1.5
+        points: 1.5
+        experience: 2
+      '192':
+        income: 1.5
+        points: 1.5
+        experience: 2
+    Kill:
+      Player:
+        income: 7.5
+        points: 7.5
+        experience: 7.5
