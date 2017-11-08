@@ -1,0 +1,79 @@
+Do sprawdzenia:
+
+fastlogin.bukkit.command.premium
+fastlogin.bukkit.command.cracked
+
+
+
+
+
+
+
+
+default:
+- bukkit.command.version
+- bukkit.command.plugins
+- bukkit.command.help
+- minecraft.command.me
+- minecraft.command.tell
+- bukkit.broadcast.user
+- bukkit.broadcast
++ authme.player.register
++ authme.player.login
++ authme.player.changepassword
+- authme.player.logout
+- authme.player.unregister
++	essentials.exp
++	essentials.kit
++	essentials.kits.start
++ essentials.time
++ essentials.balance
++ essentials.balancetop
++ essentials.afk.auto
++ essentials.helpop
++	essentials.ignore
++ essentials.list
++ essentials.motd
++ essentials.msg
++ essentials.rules
++	essentials.spawn
++ essentials.home
++ essentials.sethome
++	essentials.sethome.multiple
++ essentials.sethome.multiple.default
++ essentials.delhome
++ essentials.tpa
++ essentials.tpaccept
++	essentials.tpdeny
++	essentials.warp
++ essentials.warp.list
++ essentials.warps.*
+- essentials.help
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
