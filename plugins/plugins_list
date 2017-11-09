@@ -1,5 +1,5 @@
 AuthMe Reloaded       
-FastLogin             
+FastLogin (nadać uprawnienia ???)       
 EssentialsX  
 ViaVersion
 ProtocolLib
@@ -8,9 +8,10 @@ PvPToggle (spolszczyć)
 FAWE
 WorldBorder
 SafeTrade (poprawić wiadomości)
-
-
-
+Crazy Auctions (nadać uprawnienia)
+Random Teleport (nadać uprawnienia)
+GriefPrevention (spolszczyć i skonfigurować)
+Jobs Reborn (spolczyć i skonfigurować)
 
 
 
@@ -21,8 +22,8 @@ LuckyPerms
 
 
 GriefPrevention
-Crazy Auctions
-Jobs Reborn - https://www.spigotmc.org/resources/jobs-reborn.4216/
+
+ - https://www.spigotmc.org/resources/jobs-reborn.4216/
  - https://www.spigotmc.org/resources/pvptoggle.49112/
 Parties
  - https://www.spigotmc.org/resources/fast-async-worldedit-voxelsniper.13932/
@@ -34,12 +35,11 @@ AdvancedBan - https://www.spigotmc.org/resources/advancedban.8695/
  - https://www.spigotmc.org/resources/safetrade.13885/
 StackMob - https://www.spigotmc.org/resources/stackmob.29999/
 SkinsRestorer - https://www.spigotmc.org/resources/skinsrestorer.2124/
-CoreProtect - https://www.spigotmc.org/resources/coreprotect.8631/
+
 TerrainControl - http://forum.mctcp.com/t/terraincontrol-for-spigot-1-11/1324
 ZHorse - https://www.spigotmc.org/resources/zhorse.3384/
 Antycheat - https://www.spigotmc.org/resources/nocheatplus2015-07-25.26/ https://www.spigotmc.org/resources/phoenix-anti-cheat.6207/
-TreeAssist - https://www.spigotmc.org/resources/treeassist.16941/
-Random Teleport - https://www.spigotmc.org/resources/random-teleport-with-redprotect-kingdoms-worldguard-factions-towny-gp-worldborder-etc-support.29971/
+ - https://www.spigotmc.org/resources/random-teleport-with-redprotect-kingdoms-worldguard-factions-towny-gp-worldborder-etc-support.29971/
 
 
 
@@ -66,7 +66,7 @@ Crazy Envoy - https://www.spigotmc.org/resources/crazy-envoy-cool-new-tier-syste
 CustomMobs - https://www.spigotmc.org/resources/custommobs.7339/
 Custom Recipes - https://www.spigotmc.org/resources/custom-recipes.11440/
 Marriage - https://www.spigotmc.org/resources/marriage-reloaded-1-12-1-8.18998/
-
+CoreProtect - https://www.spigotmc.org/resources/coreprotect.8631/
 
 
 
