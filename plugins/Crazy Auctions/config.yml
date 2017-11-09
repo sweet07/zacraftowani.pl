@@ -1,0 +1,298 @@
+Settings:
+  Prefix: '&7[&bDom Aukcyjny&7]: ' #Prefix of when you get Crazy Auctions Messages.
+  GUIName: '&bDom Aukcyjny&8' #Name of the Main GUI.
+  Players-Current-Items: '&8Twoje aktualne oferty' #The Name of the Player Current Items GUI.
+  Cancelled/Expired-Items: '&8Anulowane/Wygasle oferty' #Name of the Cancelled/Expired GUI.
+  Buying-Item: '&8Zakup przedmiotu: Jestes pewien?' #Name of the Buying GUI.
+  Bidding-On-Item: '&8Licytujesz ten przedmiot.' #Name of the Bidding GUI.
+  Categories: '&8Kategorie' #Name of the Category GUI.
+  Sell-Time: 1d #The time that each item will sell for.
+  Bid-Time: 1m 30s #Time for each item that is biddable.
+  Full-Expire-Time: 5d #The full time the item is in the crazy auctions.
+  Bid-Winner-Time: 10d #The time the winner of a bid has to claim there prize.
+  Minimum-Sell-Price: 10 #Minimum amount you can sell a item for.
+  Max-Beginning-Sell-Price: 1000000 #Max amount you can sell a item for.
+  Minimum-Bid-Price: 10 #Minimum starting bid.
+  Max-Beginning-Bid-Price: 1000000 #Maximum starting bid.
+  Allow-Damaged-Items: true #Allow items that have been damaged.
+  Category-Page-Opens-First: False #If set to true the categories page will open when they do /CA.
+  Sounds:
+    Toggle: False #Disable the clicking sound.
+    Sound: 'CLICK' #Make sure if you use 1.8 or lower you use the 1.8 sound and 1.9 and up use 1.9 sounds. The default sound is 1.8.
+    #1.8 sounds are found here: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+    #1.9 sounds are found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  GUISettings: #Settings for things in the gui.
+    SellingItemLore: #The lore on items that are being sold.
+      - '&7-------------------------'
+      - '&aKliknij tutaj, aby kupic.'
+      - ''
+      - '&9Cena: &e$%Price%'
+      - '&9Sprzedawca: &e%Seller%'
+      - '&7-------------------------'
+    CurrentLore: #Lore on items that are in your current items GUI.
+      - '&7-------------------------'
+      - '&aKliknij tutaj, aby anulowac.'
+      - ''
+      - '&9Cena: &e$%Price%'
+      - '&9Czas wygasniecia: &e%Time%'
+      - '&7-------------------------'
+    Cancelled/ExpiredLore: #Lore on items that are in your cancelled/expired GUI.
+      - '&7-------------------------'
+      - '&aKliknij tutaj, aby odebrac przedmiot.'
+      - ''
+      - '&9Czas wygasniecia: &e%Time%'
+      - '&7-------------------------'
+    Bidding: #Lore on Bidding Items.
+      - '&7-------------------------'
+      - '&aKliknij tutaj, aby licytowac.'
+      - ''
+      - '&9Sprzedawca: &e%Seller%'
+      - '&9Aktualna oferta: &e$%TopBid%'
+      - '&9Najlepszy licytujący: &e%TopBidder%'
+      - '&9Pozostały czas: &e%Time%'
+      - '&7-------------------------'
+    Category-Settings:
+      Armor:
+        Item: '315'
+        Toggle: true
+        Slot: 11
+        Name: '&6&lZbroja'
+        Lore:
+          - '&7Ta kategoria zawiera wszystkie'
+          - '&7zbroje, ktore sa obecnie sprzedawane.'
+      Weapons:
+        Item: '283'
+        Toggle: true
+        Slot: 12
+        Name: '&6&lBronie'
+        Lore:
+          - '&7Ta kategoria zawiera wszystkie'
+          - '&7bronie, ktore sa obecnie sprzedawane.'
+      Tools:
+        Item: '285'
+        Toggle: true
+        Slot: 13
+        Name: '&6&lNarzedzia'
+        Lore:
+          - '&7Ta kategoria zawiera wszystkie'
+          - '&7narzedzia, ktore sa obecnie sprzedawane.'
+      Food:
+        Item: '322'
+        Toggle: true
+        Slot: 14
+        Name: '&6&lFood'
+        Lore:
+          - '&7Ta kategoria zawiera wszystkie'
+          - '&7jedzenia, ktore sa obecnie sprzedawane.'
+      Potions:
+        Item: '373:8227'
+        Toggle: true
+        Slot: 15
+        Name: '&6&lPotions'
+        Lore:
+          - '&7Ta kategoria zawiera wszystkie'
+          - '&7mikstury, ktore sa obecnie sprzedawane.'
+      Blocks:
+        Item: '2'
+        Toggle: true
+        Slot: 16
+        Name: '&6&lBlocks'
+        Lore:
+          - '&7Ta kategoria zawiera wszystkie'
+          - '&7bloki, ktore sa obecnie sprzedawane.'
+      Other:
+        Item: '371'
+        Toggle: true
+        Slot: 17
+        Name: '&6&lOthers'
+        Lore:
+          - '&7Ta kategoria zawiera wszystkie'
+          - '&7inne przedmioty, ktore sa obecnie sprzedawane.'
+      None:
+        Item: '166'
+        Toggle: true
+        Slot: 23
+        Name: '&6&lNone'
+        Lore:
+          - '&7Ta kategoria zawiera wszystkie'
+          - '&7przedmioty, ktore sa obecnie sprzedawane.'
+    OtherSettings: #Other Settings for the GUIs.
+      SellingItems: #The button for your current items.
+        Item: '264' #The item that this button is.
+        Toggle: true #If the item is in the gui or not.
+        Slot: 46 #The slot it is in. I recommend not changing these. If you do make sure they are still in the bottom row.
+        Name: '&6Przedmioty, ktore sprzedajesz' #Name of the item.
+        Lore: #Lore of the item.
+          - '&aKliknij tutaj, aby zobaczyc wszystkie przedmioty,'
+          - '&aktore sa aktualnie sprzedawane na aukcji.'
+      Cancelled/ExpiredItems: #The button for Cancelled/Expired Items.
+        Item: '394'
+        Toggle: true
+        Slot: 47
+        Name: '&6Zbierz przedmioty wygasłe / anulowane'
+        Lore:
+          - '&aKliknij tutaj, aby zobaczyc i zebrac wszystkie'
+          - '&aprzedmioty, ktore wygasly lub sa anulowane.'
+      PreviousPage: #The button for Previous Page.
+        Item: '339'
+        Toggle: true
+        Slot: 49
+        Name: '&6Poprzednia strona'
+        Lore: {}
+      Refesh: #The button for Refresh Page.
+        Item: '175'
+        Toggle: true
+        Slot: 50
+        Name: '&6Odswiez strone'
+        Lore: {}
+      NextPage: #The button for Next Page.
+        Item: '339'
+        Toggle: true
+        Slot: 51
+        Name: '&6Nastepna strona'
+        Lore: {}
+      Category1: #The button for Next Page.
+        Item: '54'
+        Toggle: true
+        Slot: 52
+        Name: '&6Kategorie'
+        Lore:
+          - '&bAktualna kategoria: &6%Category%'
+          - '&aChcesz zobaczyc przedmioty z innej kategorii?'
+          - '&aKliknij tutaj, aby zobaczyc wszystkie kategorie.'
+      Category2: #The button for Next Page.
+        Item: '54'
+        Toggle: true
+        Slot: 48
+        Name: '&6Kategorie'
+        Lore:
+          - '&bAktualna kategoria: &6%Category%'
+          - '&aChcesz zobaczyc przedmioty z innej kategorii?'
+          - '&aKliknij tutaj, aby zobaczyc wszystkie kategorie.'
+      Bidding/Selling: #Switch between Bidding and Selling.
+        Selling:
+          Item: '341'
+          Toggle: true
+          Slot: 53
+          Name: '&6Aktualnie patrzysz na przedmioty, ktore sa sprzedawane.'
+          Lore:
+            - '&7&l(&6&l!&7&l) &7Kliknij tutaj, aby zobaczyc przedmioty,'
+            - '&7ktore mozesz licytowac.'
+        Bidding:
+          Item: '378'
+          Toggle: true
+          Slot: 53
+          Name: '&6Aktualnie patrzysz na przedmioty, ktore sa licytowane.'
+          Lore:
+            - '&7&l(&6&l!&7&l) &7Kliknij tutaj, aby zobaczyc przedmioty,'
+            - '&7ktore mozesz kupic.'
+      WhatIsThis: #The info on all the Books buttons.
+        SellingShop: #The Book in the main shop.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Pomoc Sprzedaz/Kupno'
+          Lore:
+            - '&aTo jest dom aukcyjny, mozesz w nim'
+            - '&awystawiac przedmioty na sprzedaz i kupowac przedmioty,'
+            - '&aktore wystawiaja inni gracze na sprzedaz.'
+            - ''
+            - '&aAukcje to także swietne miejsce do zarabiania'
+            - '&apieniedzy poprzez sprzedawanie innym graczom,'
+            - '&aktorzy sa zainteresowani kupnem.'
+        BiddingShop: #The Book in the main shop.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Pomoc Licytacje'
+          Lore:
+            - '&aTo jest dom aukcyjny, mozesz w nim'
+            - '&awystawiac przedmioty na sprzedaz i licytowac przedmioty,'
+            - '&aktore wystawiaja inni gracze na sprzedaz.'
+            - ''
+            - '&aAukcje to takze swietne miejsce do zarabiania'
+            - '&apieniedzy poprzez licytowanie przedmiotow innym graczom,'
+            - '&aktorzy sa zainteresowani licytacja.'
+        CurrentItems: #The Book in the Current items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Pomoc Aktualna Lista'
+          Lore:
+            - '&aTo jest aktualna lista wszystkich'
+            - '&aprzedmiotow, ktore sa wyswietlane w domu'
+            - '&aaukcyjnym.'
+            - ''
+            - '&aTutaj mozesz anulowac i wyswietlic liste'
+            - '&awygasajacych aukcji.'
+        Cancelled/ExpiredItems: #The Book in the Cancelled/Expired Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Pomoc Anulowanie/Wygasanie'
+          Lore:
+            - '&aTo jest lista wszystkich'
+            - '&awygasajacych i anulowanych aukcji, ktore'
+            - '&amozesz przywrocic do swojego ekwipunku.'
+            - ''
+            - '&aKliknij na przedmiot, jesli masz wystarczajaco miejsca'
+            - 'w ekwipunku, aby odzyskac przedmiot.'
+        Viewing: #The Book in the Viewing Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 50
+          Name: '&6Pomoc Przegladanie'
+          Lore:
+            - '&aTa strona pokazuje wszystkie przedmioty, ktore'
+            - '&agracze licytuja i'
+            - '&asprzedaja. Mozesz szybko zobaczyc'
+            - '&aco dany gracz sprzedaje.'
+        Categories: #The Book in the Viewing Items GUI.
+          Item: '340'
+          Toggle: true
+          Slot: 54
+          Name: '&6Pomoc Kategorie'
+          Lore:
+            - '&aTa strona pokazuje wszystkie kategorie ktore,'
+            - '&amozesz wybrac poprzez klikniecie.'
+      Back: #The Back Buttons.
+        Item: '339'
+        Slot: 46
+        Name: '&6Powrot'
+      Return: #The Return Buttons.
+        Item: '390'
+        Slot: 50
+        Name: '&6Przywroc wszystko'
+        Lore:
+          - '&aKliknij tutaj, aby przywrocic wszystkie anulowania'
+          - '&ai wygasle przedmioty do twojego ekwipunku.'
+      Confirm: #The Confirm Buttons.
+        Item: '160:5'
+        Name: '&aPotwierdz'
+      Cancel: #The Cancel Buttons.
+        Item: '160:14'
+        Name: '&cAnuluj'
+      Your-Item: #The item that shows when you try to buy/bid on your item.
+        Item: '166'
+        Name: '&cNie mozesz kupic swoich przedmiotow.'
+      Cant-Afford: #The item that shows when you cant afford this item.
+        Item: '166'
+        Name: '&cNie stac Cie na ten przedmiot.'
+      Top-Bidder: #The item for when a player is already the top bidder.
+        Item: '166'
+        Name: '&cJestes najwiekszym licytatorem.'
+      Bidding: #The item in the middle when bidding on an item.
+        Item: '160:15'
+        Name: '&7Licytacje'
+        Lore:
+          - '&7<--&aDodaj &cUsun&7-->'
+          - '&9Twoja aktualna oferta: &e$%Bid%'
+          - '&9Aktualna najwyzsza oferta: &e$%TopBid%'
+      Bid: #The button for when you want to confirm your bid.
+        Item: '160:3'
+        Name: '&bLicytuj'
+        Lore:
+          - '&7Kliknij tutaj, aby licytowac.'
+  BlackList:
+    - '7'
+    - '120'
