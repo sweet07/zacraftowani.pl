@@ -1,0 +1,96 @@
+
+Messages:
+  ErrorMsg : "&c[LosowyTeleport] Blad, losowa teleportacja nie udana."
+  NoSuchPlayer : "&c[LosowyTeleport] Ten gracz jest offline!"
+  NoSuchWorld : "&c[LosowyTeleport] Nie ma takiego swiata na tym serwerze!"
+  Teleported : "&a[LosowyTeleport] Zostales teleportowany w losowe miejsce na mapie!"
+  CooldownMsg : "&a[LosowyTeleport] Musisz poczekac jeszcze przez &b%remaining% &asekund."
+  NoPermission: "&c[LosowyTeleport] Brak uprawnien."
+  NotInThisEnvironment: "&c[LosowyTeleport] Nie mozesz sie teleportowac losowo. (&e%env%&c)"
+  TPDelayMsg : "&aZostaniesz teleportowany za %time% sekund."
+  NotEnoughFundMsg : "&cMusisz miec minimum e%amount%&c, aby uzyc."
+  WaitingForTP : "&c[LosowyTeleport] Aktualnie czekasz na teleport."
+  TPCancelled : "&c[LosowyTeleport] Twoja teleportacja zostala anulowana."
+
+HelpMessages:
+  banner:
+    msg: "=== &e[&aLosowyTeleport&e] &r==="
+  help:
+    msg: "&a/rt help : pokazuje menu pomocy."
+  reload:
+    msg: "&a/rt reload : przeladowuje config."
+    permission: "randomteleport.reload"
+  debug:
+    msg: "&a/rt debug <true|false> : turn on / off the debug mode."
+    permission: "randomteleport.debug"
+  teleport:
+    msg: "&a/rt : teleportuje w losowe miejsce."
+    permission: "randomteleport.teleport"
+
+# Default radius, for old server whcih does not have World.getWroldBorder() method
+# this value will be used as a default radius.
+DefaultRadius: 1000
+
+# economy related
+# choices of economy system: "Money", "Token" or "Exp"
+Economy: "Money"
+Price: 0
+
+# delay til the teleportation is initiated (in seconds)
+TPDelay: 0
+
+Cooldown: 300  #in seconds
+
+EnabledEnvironment:
+  - NORMAL
+#  - NETHER
+#  - THE_END
+
+# a player with randomteleport.sign.use can click the sing to execute /rt w:world
+# a player with randomteleport.sign.create can create the RT sign.
+# 1st line of the RT sign is reserved for [RT]
+# 2nd line of the RT sign is reserved for world_id
+RTSign:
+  world:   #short world_id  (incase the world name is long)
+    world: "world"
+    lore:
+      - "&aTeleportacja w"
+      - "&alosowe miejsce!"
+  anotherworld:
+    world: "world_pvpr"
+    lore:
+      - "&aTeleport to"
+      - "&arandom place"
+      - "&ain pvp world!"
+
+# you can nominate the min/max boundaries of each world if you do not wish to
+# use the worldborder.
+# if the limits are not specified here, by default, the plugin will use the worldboarder
+WorldLimits:
+#  smallworld:
+#    xRadius: 300
+#    zRadius: 200
+#  bigworld:
+#    xRadius: 3000
+#    zRadius: 2000
+
+#
+# RT will try not to select the blocks listed here as the landing block
+AvoidBlocks:
+#  - SAND
+#  - GRAVEL
+
+#
+# No-Go WorldGuard Region
+AvoidWGRegions:
+#  - spawn
+
+
+#
+# if this option is true, all player who joined will be teleported to a random location.
+RandomTPOnJoin: false
+# this is the world a player wil be randomly teleported when they join.
+JoinTPWorld: undefined
+# if this option is true, random tp on join is executed only if a player joined the server
+# for the first time.
+OnlyAtFirstJoin: true
