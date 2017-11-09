@@ -1,2 +1,2 @@
 # zacraftowani.pl
-Serwer zacraftowani.pl 1.11 - 1.12
+Serwer Survival 1.11 - 1.12
