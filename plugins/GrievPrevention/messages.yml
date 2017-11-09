@@ -7,8 +7,8 @@ Messages:
   IgnoringClaims:
     Text: Now ignoring claims.
   SuccessfulAbandon:
-    Text: Claims abandoned.  You now have {0} available claim blocks.
-    Notes: '0: remaining blocks'
+    Text: Claim usuniety.  Teraz posiadasz {0} claim blokow do wykorzystania.
+    Notes: '0: pozostalych claim blokow.'
   RestoreNatureActivate:
     Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims to stop.
   RestoreNatureAggressiveActivate:
@@ -17,240 +17,240 @@ Messages:
     Text: Fill mode activated with radius {0}.  Right click an area to fill.
     Notes: '0: fill radius'
   TransferClaimPermission:
-    Text: That command requires the administrative claims permission.
+    Text: Brak uprawnien.
   TransferClaimMissing:
-    Text: There's no claim here.  Stand in the administrative claim you want to transfer.
+    Text: Nie ma tutaj claimu.  Stan w administracyjnym claimie, jesli chcesz przeslac claim.
   TransferClaimAdminOnly:
-    Text: Only administrative claims may be transferred to a player.
+    Text: Tylko administracyjne claimy moga byc przeslane do graczy.
   PlayerNotFound2:
-    Text: No player by that name has logged in recently.
+    Text: Nie ma takiego gracza.
   TransferTopLevel:
-    Text: Only top level claims (not subdivisions) may be transferred.  Stand outside of the subdivision and try again.
+    Text: Tylko gorny poziom claima moze zostac przeslany. Stan w claimie i sprobuj ponownie.
   TransferSuccess:
-    Text: Claim transferred.
+    Text: Claim przeslany.
   TrustListNoClaim:
-    Text: Stand inside the claim you're curious about.
+    Text: Stan w srodku claimu, jesli chcesz sie czegos dowiedziec.
   ClearPermsOwnerOnly:
-    Text: Only the claim owner can clear all permissions.
+    Text: Tylko wlasciciel claimu moze wyczyscic wszystkie uprawnienia.
   UntrustIndividualAllClaims:
-    Text: Revoked {0}'s access to ALL your claims.  To set permissions for a single claim, stand inside it.
+    Text: Przywrocono {0} uprawnienia do wszystkich claimow. Aby ustawic uprawnienia do pojedynczego claimu stan w nim.
     Notes: '0: untrusted player'
   UntrustEveryoneAllClaims:
-    Text: Cleared permissions in ALL your claims.  To set permissions for a single claim, stand inside it.
+    Text: Wyczyszczono uprawnienia we wszystkich twoich claimach. Aby ustawic uprawnienia do pojedynczego claimu stan w nim.
   NoPermissionTrust:
-    Text: You don't have {0}'s permission to manage permissions here.
+    Text: Nie masz {0} uprawnien do zarzadzania uprawnieniami tutaj.
     Notes: '0: claim owner''s name'
   ClearPermissionsOneClaim:
-    Text: Cleared permissions in this claim.  To set permission for ALL your claims, stand outside them.
+    Text: Wyczyszczono uprawnienia w tym claimie. Aby ustawic uprawnienia do wszystkich twoich claimow wyjdz z nich.
   UntrustIndividualSingleClaim:
-    Text: Revoked {0}'s access to this claim.  To set permissions for a ALL your claims, stand outside them.
+    Text: Przywrocono {0} uprawnienia do pojedynczego claimu. Aby ustawic uprawnienia do wszystkich claimow wyjdz z nich.
     Notes: '0: untrusted player'
   OnlySellBlocks:
-    Text: Claim blocks may only be sold, not purchased.
+    Text: Claim blocki moga zostac tylko sprzedany, nie mozna kupowac blokow.
   BlockPurchaseCost:
-    Text: Each claim block costs {0}.  Your balance is {1}.
+    Text: Kazdy claim blok kosztuje {0}.  Twoj portfel: {1}.
     Notes: '0: cost of one block; 1: player''s account balance'
   ClaimBlockLimit:
-    Text: You've reached your claim block limit.  You can't purchase more.
+    Text: Osiagnales limit claim blokow. Nie mozesz kupic wiecej.
   InsufficientFunds:
-    Text: You don't have enough money.  You need {0}, but you only have {1}.
+    Text: Nie masz wystarczajaco pieniedzy. Potrzebujesz {0}, ale masz tylko {1}.
     Notes: '0: total cost; 1: player''s account balance'
   PurchaseConfirmation:
-    Text: Withdrew {0} from your account.  You now have {1} available claim blocks.
+    Text: Wyplacono {0} z twojego konta. Teraz posiadasz {1} dostepnych claim blokow.
     Notes: '0: total cost; 1: remaining blocks'
   OnlyPurchaseBlocks:
-    Text: Claim blocks may only be purchased, not sold.
+    Text: Claim bloki moga byc tylko kupione, nie mozna ich sprzedawac.
   BlockSaleValue:
-    Text: Each claim block is worth {0}.  You have {1} available for sale.
+    Text: Kazdy claim blok jest warty {0}.  Masz {1} claim blokow do sprzedania.
     Notes: '0: block value; 1: available blocks'
   NotEnoughBlocksForSale:
-    Text: You don't have that many claim blocks available for sale.
+    Text: Nie masz wystarczajaco claim blokow do sprzedania.
   BlockSaleConfirmation:
-    Text: Deposited {0} in your account.  You now have {1} available claim blocks.
+    Text: Wplacono {0} do twojego portfela. Teraz masz {1} dostepnych claim blokow.
     Notes: '0: amount deposited; 1: remaining blocks'
   AdminClaimsMode:
-    Text: Administrative claims mode active.  Any claims created will be free and editable by other administrators.
+    Text: Administracyjny claim tryb zostal wlaczony.  Kazdy claim stworzony bedzie darmowy i mozliwy do edycji przez innych Administratorow.
   BasicClaimsMode:
-    Text: Returned to basic claim creation mode.
+    Text: Powrocono do prostego claimu.
   SubdivisionMode:
     Text: Subdivision mode.  Use your shovel to create subdivisions in your existing claims.  Use /basicclaims to exit.
   SubdivisionVideo2:
     Text: 'Click for Subdivision Help: {0}'
     Notes: 0:video URL
   DeleteClaimMissing:
-    Text: There's no claim here.
+    Text: Nie ma tutaj claimu.
   DeletionSubdivisionWarning:
     Text: This claim includes subdivisions.  If you're sure you want to delete it, use /DeleteClaim again.
   DeleteSuccess:
-    Text: Claim deleted.
+    Text: Claim usuniety.
   CantDeleteAdminClaim:
-    Text: You don't have permission to delete administrative claims.
+    Text: Nie masz uprawnien do usuwania administracyjnych claimow.
   DeleteAllSuccess:
-    Text: Deleted all of {0}'s claims.
+    Text: Usunieto wszystkie z {0} claimow.
     Notes: '0: owner''s name'
   NoDeletePermission:
-    Text: You don't have permission to delete claims.
+    Text: Nie masz uprawnien do usuwania claimow.
   AllAdminDeleted:
-    Text: Deleted all administrative claims.
+    Text: Usunieto wszystkie administracyjne claimy.
   AdjustBlocksSuccess:
-    Text: 'Adjusted {0}''s bonus claim blocks by {1}.  New total bonus blocks: {2}.'
+    Text: 'Powiekszono {0}''s bonusowa liczbe claim blokow o {1}. Nowe, wszystkie bonusowe bloki: {2}.'
     Notes: '0: player; 1: adjustment; 2: new total'
   NotTrappedHere:
-    Text: You can build here.  Save yourself.
+    Text: Mozesz tutaj budowac. Uwazaj na siebie.
   RescuePending:
-    Text: If you stay put for 10 seconds, you'll be teleported out.  Please wait.
+    Text: Jesli tutaj zostaniesz przez 10 sekund, bedzie teleportowany. Prosze czekac.
   NonSiegeWorld:
-    Text: Siege is disabled here.
+    Text: Oblezenia sa wylaczone na tym swiecie.
   AlreadySieging:
-    Text: You're already involved in a siege.
+    Text: Uczestniczych juz w oblezeniu.
   NotSiegableThere:
-    Text: '{0} isn''t protected there.'
+    Text: '{0} nie ochrania tutaj..'
     Notes: '0: defending player'
   SiegeTooFarAway:
-    Text: You're too far away to siege.
+    Text: Jestes zbyt daleko do oblezenia.
   NoSiegeYourself:
-    Text: You cannot siege yourself, don't be silly
+    Text: Nie mozesz oblegac samego siebie.
   NoSiegeDefenseless:
-    Text: That player is defenseless.  Go pick on somebody else.
+    Text: Ten gracz jest bezbronny.  Idz oblegac kogos innego.
   AlreadyUnderSiegePlayer:
-    Text: '{0} is already under siege.  Join the party!'
+    Text: '{0} jest pod oblezeniem.  Dolacz do zabawy!'
     Notes: '0: defending player'
   AlreadyUnderSiegeArea:
-    Text: That area is already under siege.  Join the party!
+    Text: Ta strefa jest juz pod oblezeniem. Dolacz do zabawy!
   NoSiegeAdminClaim:
-    Text: Siege is disabled in this area.
+    Text: Oblezenie jest wylaczone w tej strefie.
   SiegeOnCooldown:
-    Text: You're still on siege cooldown for this defender or claim.  Find another victim.
+    Text: Jestes dalej w czasie odnowienia oblezenia dla tego obroncy lub strefy. Znajdz inna ofiare.
   SiegeAlert:
-    Text: You're under siege!  If you log out now, you will die.  You must defeat {0}, wait for him to give up, or escape.
+    Text: Jestes pod oblezeniem! Jesli teraz sie wylogujesz, zginiesz! Musisz pokonac {0}, poczekac, az sie podda lub ucieknie.
     Notes: '0: attacker name'
   SiegeConfirmed:
-    Text: The siege has begun!  If you log out now, you will die.  You must defeat {0}, chase him away, or admit defeat and walk away.
+    Text: Oblezenie sie rozpoczelo! Jesli teraz sie wylogujesz, zginiesz! Musisz pokonac {0}, zabic go, lub przyznac sie do porazki i odejsc.
     Notes: '0: defender name'
   AbandonClaimMissing:
-    Text: Stand in the claim you want to delete, or consider /AbandonAllClaims.
+    Text: Stan w srodku strefy, jesli chcesz ja usunac lub uzyj /AbandonAllClaims.
   NotYourClaim:
-    Text: This isn't your claim.
+    Text: To nie jest twoja strefa.
   DeleteTopLevelClaim:
     Text: To delete a subdivision, stand inside it.  Otherwise, use /AbandonTopLevelClaim to delete this claim and all subdivisions.
   AbandonSuccess:
-    Text: Claim abandoned.  You now have {0} available claim blocks.
+    Text: Strefa usunieta. Masz teraz {0} blokow strefy.
     Notes: '0: remaining claim blocks'
   CantGrantThatPermission:
-    Text: You can't grant a permission you don't have yourself.
+    Text: Nie mozesz otrzymac uprawnien.
   GrantPermissionNoClaim:
-    Text: Stand inside the claim where you want to grant permission.
+    Text: Stan w strefie, gdzie mozesz przydzielic uprawnienia.
   GrantPermissionConfirmation:
-    Text: Granted {0} permission to {1} {2}.
+    Text: Przyznano {0} uprawnienie {1} {2}.
     Notes: '0: target player; 1: permission description; 2: scope (changed claims)'
   ManageUniversalPermissionsInstruction:
-    Text: To manage permissions for ALL your claims, stand outside them.
+    Text: Aby zarzadzac uprawnieniami do wszystkich twoich stref, wyjdz z nich.
   ManageOneClaimPermissionsInstruction:
-    Text: To manage permissions for a specific claim, stand inside it.
+    Text: Aby zarzadzac uprawnieniami do konkretnej strefy, wejdz do niej.
   CollectivePublic:
-    Text: the public
+    Text: Publiczny
     Notes: as in 'granted the public permission to...'
   BuildPermission:
-    Text: build
+    Text: Budowa
   ContainersPermission:
-    Text: access containers and animals
+    Text: Dostep kontenerow i zwierzat.
   AccessPermission:
-    Text: use buttons and levers
+    Text: Uzywanie przyciskow i dzwigni.
   PermissionsPermission:
-    Text: manage permissions
+    Text: Zarzadzanie uprawnieniami.
   LocationCurrentClaim:
-    Text: in this claim
+    Text: W tej strefie.
   LocationAllClaims:
-    Text: in all your claims
+    Text: We wszystkich twoich strefach.
   PvPImmunityStart:
-    Text: You're protected from attack by other players as long as your inventory is empty.
+    Text: Jestes odporny od atakow przez innych graczy, tak dlugo jak pusty jest twoi ekwipunek.
   SiegeNoDrop:
-    Text: You can't give away items while involved in a siege.
+    Text: Nie mozesz upuszczac przedmiotow podczas oblezenia.
   DonateItemsInstruction:
-    Text: To give away the item(s) in your hand, left-click the chest again.
+    Text: Aby wyrzucic przedmioty z twojej reki, LPM na skrzynie jeszcze raz.
   ChestFull:
-    Text: This chest is full.
+    Text: Ta skrzynia jest pelna.
   DonationSuccess:
-    Text: Item(s) transferred to chest!
+    Text: Przedmioty przeslano do skrzyni.
   PlayerTooCloseForFire2:
-    Text: You can't start a fire this close to another player.
+    Text: Nie mozesz rozpoczac pozaru, tak blisko innego gracza.
   TooDeepToClaim:
-    Text: This chest can't be protected because it's too deep underground.  Consider moving it.
+    Text: Ta skrzynia nie moze byc chroniona, poniewaz jest zbyt gleboko w ziemi, przemysl przeniesienie jej.
   ChestClaimConfirmation:
-    Text: This chest is protected.
+    Text: Ta skrzynia jest chroniona.
   AutomaticClaimNotification:
-    Text: This chest and nearby blocks are protected from breakage and theft.
+    Text: Ta skrzynia i bloki w poblizu sa chronione przed zniszczeniem i kradzieza.
   UnprotectedChestWarning:
-    Text: This chest is NOT protected.  Consider using a golden shovel to expand an existing claim or to create a new one.
+    Text: Ta skrzynia nie jest chroniona. Rozwaz to korzystajac z zlotej lopaty, aby powiekszyc istniejaca strefe.
   ThatPlayerPvPImmune:
-    Text: You can't injure defenseless players.
+    Text: Nie mozesz zranic bezbronnych graczy.
   CantFightWhileImmune:
-    Text: You can't fight someone while you're protected from PvP.
+    Text: Nie mozesz walczyc, kiedy jestes pod ochrona.
   NoDamageClaimedEntity:
-    Text: That belongs to {0}.
+    Text: To nalezy do {0}.
     Notes: '0: owner name'
   ShovelBasicClaimMode:
-    Text: Shovel returned to basic claims mode.
+    Text: Lopata powrocila do prostego trybu strefy.
   RemainingBlocks:
-    Text: You may claim up to {0} more blocks.
+    Text: Masz jeszcze {0} blokow strefy.
     Notes: '0: remaining blocks'
   CreativeBasicsVideo2:
-    Text: 'Click for Land Claim Help: {0}'
+    Text: ''
     Notes: '{0}: video URL'
   SurvivalBasicsVideo2:
-    Text: 'Click for Land Claim Help: {0}'
+    Text: ''
     Notes: '{0}: video URL'
   TrappedChatKeyword:
-    Text: trapped
+    Text: uwieziony
     Notes: When mentioned in chat, players get information about the /trapped command.
   TrappedInstructions:
-    Text: Are you trapped in someone's land claim?  Try the /trapped command.
+    Text: Jestes uwieziony w kogos strefie? Wpisz /trapped
   PvPNoDrop:
-    Text: You can't drop items while in PvP combat.
+    Text: Nie mozesz wyrzucic przedmiotow podczas PvP.
   SiegeNoTeleport:
-    Text: You can't teleport out of a besieged area.
+    Text: Nie mozesz sie teleportowac na strefe bez oblezenia.
   BesiegedNoTeleport:
-    Text: You can't teleport into a besieged area.
+    Text: Nie mozesz sie teleportowac do strefy oblezenia.
   SiegeNoContainers:
-    Text: You can't access containers while involved in a siege.
+    Text: Nie mozesz uzyskac dostepnu do pojemnikow, podczas oblezenia.
   PvPNoContainers:
-    Text: You can't access containers during PvP combat.
+    Text: Nie możesz uzyskać dostępu do pojemników podczas PvP.
   PvPImmunityEnd:
-    Text: Now you can fight with other players.
+    Text: Teraz mozesz walczyc z innymi graczami.
   NoBedPermission:
-    Text: '{0} hasn''t given you permission to sleep here.'
+    Text: '{0} nie dal Ci uprawnien do spania tutaj.'
     Notes: '0: claim owner'
   NoWildernessBuckets:
-    Text: You may only dump buckets inside your claim(s) or underground.
+    Text: Mozesz tylko oprozniac wiaderka w twojej strefie lub pod nia.
   NoLavaNearOtherPlayer:
-    Text: You can't place lava this close to {0}.
+    Text: Nie mozesz postawic lawy tak blisko {0}.
     Notes: '0: nearby player'
   TooFarAway:
-    Text: That's too far away.
+    Text: To jest zbyt daleko.
   BlockNotClaimed:
-    Text: No one has claimed this block.
+    Text: Nikt nie zablokowal tego bloku.
   BlockClaimed:
-    Text: That block has been claimed by {0}.
+    Text: Ten blok zostal zablokowany przez {0}.
     Notes: '0: claim owner'
   SiegeNoShovel:
-    Text: You can't use your shovel tool while involved in a siege.
+    Text: Nie mozesz uzywac lopaty kiedy jestes pod oblezeniem.
   RestoreNaturePlayerInChunk:
     Text: Unable to restore.  {0} is in that chunk.
     Notes: '0: nearby player'
   NoCreateClaimPermission:
-    Text: You don't have permission to claim land.
+    Text: Nie masz uprawnien do tworzenia strefy..
   ResizeNeedMoreBlocks:
-    Text: You don't have enough blocks for this size.  You need {0} more.
+    Text: Nie masz wystarczajaco blokow strefy, do tego rozmiaru. Potrzebujesz jeszcze {0}.
     Notes: '0: how many needed'
   NoCreativeUnClaim:
-    Text: You can't unclaim this land.  You can only make this claim larger or create additional claims.
+    Text: Nie mozesz cofnac strefy z tej ziemi. Mozesz Mozesz tylko powiekszych ta strefe lub stworzyc nowa.
   ClaimResizeSuccess:
-    Text: Claim resized.  {0} available claim blocks remaining.
+    Text: Strefa zmieniona. Pozostalo CI {0} dostepnych blokow strefy.
     Notes: '0: remaining blocks'
   ResizeFailOverlap:
-    Text: Can't resize here because it would overlap another nearby claim.
+    Text: Nie mozesz zmienic rozmiaru strefy tutaj, poniewaz pokrywa sie ona z inna strefa w poblizu.
   ResizeStart:
-    Text: Resizing claim.  Use your shovel again at the new location for this corner.
+    Text: Zmiana rozmiaru strefy. Uzyj zlotej lopaty ponownie, w nowej lokalizacji dla tego rogu.
   ResizeFailOverlapSubdivision:
     Text: You can't create a subdivision here because it would overlap another subdivision.  Consider /abandonclaim to delete it, or use your shovel at a corner to resize it.
   SubdivisionStart:
