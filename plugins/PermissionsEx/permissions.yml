@@ -1,0 +1,41 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - authme.player.login
+    - authme.player.register
+    - authme.player.changepassword
+    - authme.player.email
+    - authme.player.email.add
+    - authme.player.email.change
+    - authme.player.email.see
+    - -authme.player.unregister
+    - -authme.player.logout
+    - ctplus.check
+    - ctplus.logout
+    - ctplus.notify.kill
+    - crazyauctions.access
+    - crazyauctions.access
+    - crazyauctions.view
+    - crazyauctions.sell
+    - crazyauctions.bid
+    - crazyauctions.access
+    - crazyauctions.access
+
+  vip:
+  mod:
+    permissions:
+    - authme.admin.register
+    - authme.admin.changepassword
+    - authme.admin.changeemail
+    - authme.admin.getemail
+    - authme.admin.getip
+    - authme.admin.seeotheraccounts
+    - authme.admin.unregister
+    - authme.allowmultipleaccounts
+    - 
+  admin:
+    permissions:
+    - '*'
+schema-version: 1
