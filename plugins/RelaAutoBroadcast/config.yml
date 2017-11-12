@@ -1,0 +1,16 @@
+#RelaAutoBroadcast's default configuration file
+
+#How long (in seconds) of a delay should there be between each message?
+interval: 90
+
+#Do you want to use a prefix before the broadcast?
+use-prefix: true
+
+prefix: '&2Rela&bAutoBroadcast &6>>&r '
+
+#These are the messages that will be broadcasted at the set interval.
+broadcasts:
+ - '&aMessage one'
+ - '&bMessage two'
+ - '&1Message three'
+ - '&2Message four'
