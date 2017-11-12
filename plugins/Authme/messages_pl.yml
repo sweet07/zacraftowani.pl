@@ -1,0 +1,106 @@
+# Registration
+reg_msg: '&2Proszę się zarejestrować przy użyciu &6/register <hasło> <powtórz_hasło>'
+usage_reg: '&4Użycie: /register <hasło> <powtórz_hasło>'
+reg_only: '&fTylko zarejestrowani użytkownicy maja do tego dostęp!'
+kicked_admin_registered: 'Administrator zarejestrował Ciebie, możesz się zalogować.'
+registered: '&aPomyślnie zarejestrowany!'
+reg_disabled: '&4Rejestracja jest wyłączona'
+user_regged: '&4Gracz już jest zarejestrowany'
+
+# Password errors on registration
+password_error: '&fHasło niepoprawne!'
+password_error_nick: '&cNie możesz używać nicku jako hasła, wybierz inne...'
+password_error_unsafe: '&cTwoje hasło nie jest bezpieczne, wybierz inne...'
+password_error_chars: '&4W twoim haśle występują niedozwolone znaki, dozwolone znaki to: REG_EX'
+pass_len: '&fTwoje hasło jest za krótkie lub za długie! Spróbuj ponownie...'
+
+# Login
+usage_log: '&cUżycie: /login hasło'
+wrong_pwd: '&cNiepoprawne hasło.'
+login: '&aHasło zaakceptowane!'
+login_msg: '&2Prosze się zalogować przy użyciu &6/login <hasło>'
+timeout: '&cUpłynął limit czasu zalogowania'
+
+# Errors
+unknown_user: '&fGracz nie jest zarejestrowany'
+denied_command: '&cAby użyć tej komendy musisz się zalogować!'
+denied_chat: '&cAby pisać na chacie musisz się zalogować!'
+not_logged_in: '&4Nie jesteś zalogowany!'
+tempban_max_logins: '&cZostałeś tymczasowo zbanowany za dużą liczbę nieudanych logowań!'
+max_reg: '&cPrzekroczyłeś limit zarejestrowanych kont na serwerze &8(&e%reg_count/%max_acc %reg_names&8) &cdla twojego połączenia.'
+no_perm: '&4Nie posiadasz wymaganych uprawnień.'
+error: '&fWystąpił błąd, prosimy napisać do administracji'
+kick_forvip: '&cGracz VIP dołączył do gry!'
+
+# AntiBot
+kick_antibot: 'AntyBot został włączony, musisz poczekać minute przed dołączeniem do serwera'
+antibot_auto_enabled: '&4[AntiBot] &aAntyBot włączony z powodu dużej liczby połączeń!'
+antibot_auto_disabled: '&2[AntiBot] &aAntyBot zostanie wyłączony za &7%m &aminut!'
+
+# Other messages
+unregistered: '&4Pomyslnie wyrejestrowany!'
+accounts_owned_self: 'Posiadasz %count kont:'
+accounts_owned_other: 'Gracz %name posiada %count kont:'
+two_factor_create: '&2Twój sekretny kod to %code. Możesz zeskanować go tutaj: %url'
+recovery_code_sent: 'Kod odzyskiwania hasła został wysłany na adres email przypisany do konta.'
+recovery_code_incorrect: '&cKod odzyskiwania hasła jest błędny! &4Pozostałe próby: %count.'
+recovery_tries_exceeded: 'Osiągnięto limit prób wpisania kodu odzyskiwania. Wpisz /email recovery [email] aby wygenerować nowy kod.'
+recovery_code_correct: '&aKod odzyskiwania został wpisany pomyślnie!'
+recovery_change_password: 'Wpisz komendę /email setpassword <nowe_hasło> aby zmienić hasło do konta.'
+vb_nonActiv: '&fTwoje konto nie zostało aktywowane! Sprawdź maila.'
+usage_unreg: '&cUżycie: /unregister hasło'
+pwd_changed: '&fHasło zostało zmienione!'
+logged_in: '&fJesteś już zalogowany!'
+logout: '&cPomyślnie wylogowany'
+reload: '&fKonfiguracja bazy danych została przeładowana.'
+usage_changepassword: '&fUżycie: /changepassword <stare_hasło> <nowe_hasło>'
+
+# Session messages
+invalid_session: '&fSesja logowania zakończona!'
+valid_session: '&aZalogowano automatycznie z powodu sesji logowania.'
+
+# Error messages when joining
+name_len: '&cTwoje konto ma za długa bądź za krotką nazwę.'
+regex: '&cTwoje konto ma w nazwie niedozwolone znaki. Dozwolone znaki: REG_EX'
+country_banned: '&4Ten kraj jest zbanowany na tym serwerze'
+not_owner_error: '&cNie jesteś właścicielem tego konta, wybierz inny nick!'
+kick_fullserver: '&cSerwer jest teraz zapełniony, przepraszamy!'
+same_nick: '&fTen nick już gra na serwerze!'
+invalid_name_case: 'Powinieneś dołączyć do serwera z nicku %valid, a nie %invalid.'
+same_ip_online: 'Gracz z takim samym adresem ip jest aktualnie w grze!'
+
+# Email
+usage_email_add: '&fWpisz: /email add <email> <powtórz_email> '
+usage_email_change: '&fWpisz: /email change <stary_email> <nowy_email> '
+usage_email_recovery: '&fWpisz: /email recovery <email>'
+new_email_invalid: '[AuthMe] Nowy email niepoprawny!'
+old_email_invalid: '[AuthMe] Stary email niepoprawny!'
+email_invalid: '[AuthMe] Nieprawidłowy email.'
+email_added: '[AuthMe] Email dodany!'
+email_confirm: '[AuthMe] Potwierdź swój email!'
+email_changed: '[AuthMe] Email zmieniony!'
+email_send: '[AuthMe] Email z odzyskaniem wysłany!'
+email_show: '&2Twój aktualny adres email to: &f%email'
+incomplete_email_settings: 'Error: Nie wszystkie opcje odpowiedzialne za wysyłanie emaili zostały skonfigurowane. Skontaktuj się z administracją.'
+email_already_used: '&4Ten adres email jest aktualnie używany!'
+email_send_failure: 'Nie można wysłać emaila. Skontaktuj się z administracją.'
+show_no_email: '&2Nie posiadasz adresu email przypisanego do tego konta.'
+add_email: '&cProszę dodać swój email: /email add <twój_email <powtórz_Email>'
+recovery_email: '&cZapomniałeś hasła? Proszę użyj komendy /email recovery <twój_email>'
+change_password_expired: 'Nie zmienisz już hasła przy użyciu tej komendy.'
+email_cooldown_error: '&cEmail został wysłany, musisz poczekać %time przed wysłaniem następnego.'
+
+# Captcha
+usage_captcha: '&cWpisz: /captcha <theCaptcha>'
+wrong_captcha: '&cZły kod, proszę wpisać: /captcha THE_CAPTCHA'
+valid_captcha: '&cTwój kod jest nieprawidłowy!'
+
+# Time units
+second: 'sekundy'
+seconds: 'sekund'
+minute: 'minuty'
+minutes: 'minut'
+hour: 'godziny'
+hours: 'godzin'
+day: 'dzień'
+days: 'dni'
