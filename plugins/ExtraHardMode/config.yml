@@ -70,7 +70,7 @@ ExtraHardMode:
         - STONE-COBBLESTONE
     Torches:
       # No placement of torches below Defined Value. Makes for scarier caves on the lower levels. Y: 0 to disable
-      No Placement Under Y: 30
+      No Placement Under Y: 5
       # Soft materials include sand and dirt. Idea is that players don't litter the landscape with torches.
       No Placement On Soft Materials: true
       # When it rains there is a chance that torches will be removed in a chunk.
@@ -192,7 +192,7 @@ ExtraHardMode:
     # This is an advanced anti monster grinder module. It will block drops if the monster
     # spawned on an unnatural block, took too much damage from natural causes (falldmg etc.)
     # cant reach a player or can not easily reach a player f.e. monster is in water.
-    Inhibit Monster Grinders: true
+    Inhibit Monster Grinders: false
     More Monsters:
       Max Y: 55
       # A simple multiplier to increase spawns under ground by increasing the packspawning size.
@@ -324,16 +324,16 @@ ExtraHardMode:
     Health: 800
   Farming:
     Weak Crops:
-      Enable: true
+      Enable: false
       Loss Rate: 25
       Infertile Deserts: true
       Snow Breaks Crops: true
-    Cant Craft Melonseeds: true
-    No Bonemeal On Mushrooms: true
-    No Farming Nether Wart: true
+    Cant Craft Melonseeds: false
+    No Bonemeal On Mushrooms: false
+    No Farming Nether Wart: false
     Sheep Grow Only White Wool: true
     Squid Only Spawn In Ocean: true
-    Buckets Dont Move Water Sources: true
+    Buckets Dont Move Water Sources: false
     Animal Experience Nerf: true
     Iron Golem Nerf: true
     Animal Overcrowding Control:
@@ -351,13 +351,8 @@ ExtraHardMode:
     Dmg Amount When Hitting Players: 2
     Turn Mycel/Grass To Dirt: true
     Enabled Blocks:
-    - MOSSY_COBBLESTONE
-    - GRASS
     - DIRT
-    - COBBLESTONE
-    - DOUBLE_STEP@3
-    - STEP@3,11
-    - MYCEL
+    - GRASS
   Explosions:
     # When enabled explosions will turn surrounding stone into cobblestone 
     Turn Stone To Cobble: true
