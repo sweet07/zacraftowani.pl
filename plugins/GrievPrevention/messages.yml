@@ -3,11 +3,11 @@
 # Use dollar signs ($) for formatting codes, which are documented here: http://minecraft.gamepedia.com/Formatting_codes
 Messages:
   RespectingClaims:
-    Text: Now respecting claims.
+    Text: Teraz respektujesz dzialki.
   IgnoringClaims:
-    Text: Now ignoring claims.
+    Text: Teraz ignorujesz dzialki.
   SuccessfulAbandon:
-    Text: Claim usuniety.  Teraz posiadasz {0} claim blokow do wykorzystania.
+    Text: Dzialka usunieta.  Teraz posiadasz {0} blokow dzialkowych do wykorzystania.
     Notes: '0: pozostalych claim blokow.'
   RestoreNatureActivate:
     Text: Ready to restore some nature!  Right click to restore nature, and use /BasicClaims to stop.
